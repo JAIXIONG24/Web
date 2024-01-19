@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XAICHA JAIXIONG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>XAICHA JAIXIONG</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="imageUpload">画像アップロード</label>
+            <input type="file" id="imageUpload" accept="image/*" />
+            
+            <label for="videoUpload">映像アップロード</label>
+            <input type="file" id="videoUpload" accept="video/*" />
+
+            <button type="button" onclick="uploadFiles()">アップロード</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
